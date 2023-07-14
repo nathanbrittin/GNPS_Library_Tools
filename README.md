@@ -12,5 +12,5 @@ A list of the functions provided within the Jupyter notebook.
 7. basic_mass_search(): Given a mass a ppm error range this will search the library for any compounds that are within the given range.
 8. basic_name_Search(): Given a name for a compound this function will search the GNPS library for any compound names that are/contain any matched and return all matches up to the given number of matches (default=10).
 9. display_spectra(): Given a retrieved spectra from retrieve_spectra or retrieve_spectra_fast this will plot the spectra in order to see the fragmentation pattern.
-10. display_spectra_interactive(): This function will display the spectra in a way that can be interacted with, such as zooming and selecting.
+10. display_spectra_interactive(): This function will display the spectra in a way that can be interacted with, such as zooming and selecting. (IN PROGRESS)
 11. display_structure(): Given a GNPS ID for a compound, this will search the library for the spectra match and then return an image of the chemical structure. If no structure is found it will say so and display the structure of serotonin (because sadness, lol)
